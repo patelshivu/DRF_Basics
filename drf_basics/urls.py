@@ -6,7 +6,7 @@ from django.urls import path
 app_name = 'drf_basics'
 # Be careful setting the name to just /login use userlogin instead!
 urlpatterns=[
-    path('test/', views.test_deploy, name='test'),
+    path('', views.test_deploy, name='test'),
     #path('login_new/',views.user_login, name='login_new'),
     #url(r'^register/$',views.register,name='register'),
     #url(r'^user_login/$',views.user_login,name='user_login'),
