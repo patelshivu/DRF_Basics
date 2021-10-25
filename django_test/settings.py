@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hdpd+#eqn7tx4_c%yo(+y#w5)onzp$02fx)+!danm=^2=6#p61
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'drf_basics',
 ]
 
 MIDDLEWARE = [
